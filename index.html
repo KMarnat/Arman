@@ -10,7 +10,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
     <title>Arman</title>
     <link rel="stylesheet" href="css/style.css" />
-    <script src="/js/script.js"></script>
+    <script src="jquery-3.6.1.min.js"></script>
   </head>
   <body>
     <section>
@@ -102,5 +102,17 @@
         </div>
       </div>
     </section>
+    <script>
+      var elem = document.querySelector(".triangle");
+      window.addEventListener("scroll", function () {
+        var value = window.scrollY * 0.25;
+        elem.style.transform = `scale(${100 - value}%`;
+        if (100 - value < 0) {
+          elem.style.display = "none";
+        } else {
+          elem.style.display = "block";
+        }
+      });
+    </script>
   </body>
 </html>

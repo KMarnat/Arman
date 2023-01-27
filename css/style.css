@@ -260,12 +260,12 @@ header {
   position: absolute;
   top: -30%;
   left: 35%;
-  z-index: -1;
-  transform: rotate(2deg);
+  z-index: 1;
 }
 
 .hero-image {
   width: 35em;
+  z-index: 3;
 }
 
 .side-menu-whole {
