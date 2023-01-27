@@ -145,12 +145,20 @@ a {
     justify-content: center;
 }
 
+.just-end {
+  justify-content: end;
+}
+
 .m2 {
   padding: 4em 0 4em;
 }
 
 .flex-clm {
     flex-direction: column;
+}
+
+.flex-row {
+  flex-direction: row;
 }
 
 .sticky {
@@ -195,7 +203,7 @@ header {
 
 .header-nav{
   margin-left: 8em;
-    align-items: flex-end;
+  align-items: flex-end;
 }
 
 .header-nav a {
@@ -214,21 +222,44 @@ header {
 }
 
 .hero-image {
-    width: 30em;
+  width: 30em;
 }
 
 .side-menu-whole {
-    position: absolute;
-    right: 0;
-    min-height: 39em;
-    top: 25%;
+  position: absolute;
+  right: 0;
+  min-height: 39em;
+  top: 25%;
 }
 
 .side-menu-black {
-    background-color: black;
-    height: 25em;
-    padding: 15px 10px;
-    width: 5em;
+  background-color: black;
+  height: 25em;
+  padding: 15px 10px;
+  width: 5em;
+}
+
+.paintings-container {
+  width: 30%;
+}
+
+
+#img1 {
+  background: url("/assets/rembrandt.jpg");
+  background-size: cover;
+  height: 30em;
+}
+
+#img2 {
+  background: url("/assets/rene.jpg");
+  background-size: cover;
+  height: 30em;
+}
+
+#img3 {
+  background: url("/assets/diego.jpeg");
+  background-size: cover;
+  height: 30em;
 }
 
 /* MAIN STYLES END */
